@@ -22,7 +22,7 @@ int main()
         {
                 cout<<"You guessed that shit right!";<<endl;
         }else{
-                cout<<"YOU FOOL!";<<endl;
+                cout<<"YOU FOOL!"<<endl;
         }
         return(0);
 
