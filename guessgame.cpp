@@ -20,7 +20,7 @@ int main()
 
         if(guess==num)
         {
-                cout<<"You guessed that shit right!";<<endl;
+                cout<<"You guessed that shit right!"<<endl;
         }else{
                 cout<<"YOU FOOL!"<<endl;
         }
