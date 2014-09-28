@@ -15,15 +15,21 @@ int main()
         int num=rand() % 10;
         //get number from user
         int guess;
-        cout<<"Guess the number"<<endl;
-        cin>>guess;
+        int guessed;
 
-        if(guess==num)
+       	while(guessed!=1)
         {
-                cout<<"You guessed that shit right!"<<endl;
-        }else{
-                cout<<"YOU FOOL!"<<endl;
-        }
+                cout<<"Guess the number"<<endl;
+                cin>>guess;
+                if(guess==num)
+                {
+                        cout<<"You guessed that shit right!"<<endl;
+                        guessed=1;
+                }else{
+			cout<<"YOU FOOL!"<<endl;
+		}
+               
+	}
         return(0);
 
 }
