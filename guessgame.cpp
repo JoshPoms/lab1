@@ -16,15 +16,17 @@ int main()
         //get number from user
         int guess;
         int guessed;
-
+	int attempts=0;
        	while(guessed!=1)
         {
                 cout<<"Guess the number"<<endl;
                 cin>>guess;
+		attempts++;
                 if(guess==num)
                 {
                         cout<<"You guessed that shit right!"<<endl;
                         guessed=1;
+			cout<<"Attempts:"<<attempts<<endl;
                 }else{
 			cout<<"YOU FOOL!"<<endl;
 		}
